@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-               bat 'java HelloWorld'
+               bat 'python HelloWorld'
             }
         }
     }
